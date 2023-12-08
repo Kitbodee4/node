@@ -13,5 +13,5 @@ screen -S sentry-node-session -dm bash -c "./sentry-node-cli-linux"
 sleep 2
 
 screen -S sentry-node-session -X stuff "boot-operator$(printf \\r)"
-
+sleep 2
 screen -r sentry-node-session
