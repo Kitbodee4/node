@@ -3,8 +3,8 @@
 sudo apt update
 sudo apt   install  screen
 sudo apt install curl unzip
-sudo apt upgrade
-curl -L -o sentry-node-cli-linux.zip https://github.com/xai-foundation/sentry/releases/latest/download/sentry-node-cli-linux.zip
+sudo apt upgrade -y
+curl -L -0 -o sentry-node-cli-linux.zip https://github.com/xai-foundation/sentry/releases/latest/download/sentry-node-cli-linux.zip
 
 unzip sentry-node-cli-linux.zip
 
