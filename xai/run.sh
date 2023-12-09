@@ -1,6 +1,6 @@
 #!/bin/bash
 timestamp=$(date '+%Y%m%d%H%M%S')
-session_name="sentry-node-session-$timestamp"
+session_name="$timestamp-sentry"
 sudo apt update
 sudo apt   install  screen
 sudo apt install curl unzip
